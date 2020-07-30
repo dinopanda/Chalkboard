@@ -22,10 +22,10 @@ import java.util.List;
  	 */
  	public void run() {
  		// Find a specific entity. 
- 		GridEntity stitch = null;
+ 		Icon stitch = null;
  		for(int i = 0; i < entities.size(); i++) {
  			if ("stitch".equals(entities.get(i).getName())) {
- 				stitch = entities.get(i);
+ 				stitch = (Icon) entities.get(i);
  				break;
  			}
  		}
